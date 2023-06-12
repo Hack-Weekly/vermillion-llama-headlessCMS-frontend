@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import {  BrowserRouter, Routes, Route, Link } from 'react-router-dom'
-import "bootstrap/dist/css/bootstrap.min.css"
+import './pages/Auth/auth.css';
+import {  BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Auth from './pages/Auth/auth';
 
 const App = () => {
   return(
-    <div className='App'>
+    <div className='auth'>
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Auth/>} />
