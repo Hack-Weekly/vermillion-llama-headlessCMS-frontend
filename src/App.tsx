@@ -4,6 +4,8 @@ import './pages/Auth/auth.css';
 import {  BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Auth from './pages/Auth/auth';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 const App = () => {
   return(
     <div className='auth'>
